@@ -6,7 +6,6 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    color: #fff;
     background: #343434;
 }
 .container{
@@ -15,9 +14,11 @@ body{
 .card{
     border-radius: 50px;
     background: #343434;
+    color: #9c9c9d;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
     padding: 3%;
-    text-align: center;
+    display: grid;
+    place-items: center;
 }
 .card h4{
     font-size: 4rem;
@@ -29,6 +30,26 @@ img #icon{
 }
 h6 #weather{
     text-transform: capitalize;
+}
+p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#btn{
+    background-color: #191b1b;
+    color: #9c9c9d;
+    margin-top: 5px;
+    border: 2px solid #191b1b;
+    border-radius: 5px;
+}
+input{
+    background-color: #9c9c9d;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #191b1b;
+    border-radius: 5px;
 }
 button.refresh{
     display: block;
