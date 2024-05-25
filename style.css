@@ -66,3 +66,18 @@ button.refresh{
 button.refresh:hover{
     box-shadow: inset 10px 4pc 10pc #252525, inset 5px 5px 18px #4a4a4a;
 }
+
+@media (max-width:550px) {
+    .container{
+        margin-right: 190px;
+    }
+    .card{
+        width: 250px;
+    }
+}
+
+@media (max-width:780px) {
+    .container{
+        width: 35%;
+    }
+}
